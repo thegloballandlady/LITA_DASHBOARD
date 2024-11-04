@@ -17,10 +17,12 @@ The transformation process included:
 ### Data Visualization
 ---
 
+![Data transforming](https://github.com/user-attachments/assets/c121fc92-fef4-40f1-be78-00442fb74762)
 
 
 
 ### Data Source
+---
 The data used in this transformation project was sourced from the LITA program, providing real-world scenarios and a variety of fields for hands-on practice.
 
 ### Feedback
