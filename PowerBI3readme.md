@@ -42,6 +42,7 @@ The transformation stage involved restructuring data to suit analysis needs. Key
 ![Data transforming](https://github.com/user-attachments/assets/87e6ea4e-d00a-4b75-b95a-96e9c1edae7f)
 
 
+
 ### Feedback
 ---
 The course on data trimming and transformation was incredibly insightful. 
