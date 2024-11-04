@@ -27,10 +27,10 @@ Using Power BI, I developed several visualizations to explore patterns and trend
 ### Key Metrics
 ---
 
-Total Revenue: Summed revenue across all categories and markets.
-Revenue by Market: Calculated revenue per market to identify high-earning regions.
-Sales Category Contribution: Measured each category's contribution to total sales.
-Top Models: Listed models that generated the highest sales.
+1. Total Revenue: Summed revenue across all categories and markets.
+2. Revenue by Market: Calculated revenue per market to identify high-earning regions.
+3. Sales Category Contribution: Measured each category's contribution to total sales.
+4. Top Models: Listed models that generated the highest sales.
 
 ### Key Findings
 ---
@@ -44,10 +44,16 @@ Top Models: Listed models that generated the highest sales.
 ### Power BI Dashboard
 ---
 
-The Power BI dashboard developed for this project enables interactive exploration of the data, with filters for each variable. This allows users to view revenue trends, compare sales categories, and analyze line of business performance in real-time.
+The Power BI dashboard developed for this project enables interactive exploration of the data, with filters for each variable. 
+This allows users to view revenue trends, compare sales categories,and analyze line of business performance in real-time.
 
-Data Source
+### Data Source
+---
+
 The Class Inventory Data dataset was provided by the LITA program and represents a sample of inventory and sales data for analytical practice.
+
+### feedback 
+---
 
 This report reflects the data analysis skills I have gained in Power BI and showcases my ability to derive insights from complex datasets.
 
