@@ -1,33 +1,49 @@
-# REPORT ON DATA TRANSFORMATION - LITA PROGRAM
+# DATA CLEANING AND TRANSFORMATION REPORT
 ---
 
 ### Overview
 ---
-This report outlines my work on data transformation, a crucial step in preparing raw data for analysis. Using tools like Excel and Power BI, 
-I  learnt how to transform unstructured data into clean, usable formats, enabling accurate data visualization and insights.
+Data cleaning and transformation are critical steps in preparing raw data for analysis. 
+This module emphasized the importance of trimming and restructuring data, ensuring accuracy and usability in analytical workflows. 
+Learning these skills has been both rewarding and essential to improving data quality.
 
-### Data Transformation Process
+
+### Data Cleaning
 ---
-The transformation process included:
-1. Data Cleaning: Removing duplicates, handling missing values, and standardizing formats.
-2. Data Structuring: Organizing data into relevant categories and columns.
-3. Formatting and Calculation: Applying functions for calculated columns and preparing data for analysis.
+Data trimming was an integral part of the cleaning process. This involved:
+1. Removing Extra Spaces: Enhancing data consistency by trimming unnecessary spaces.
+2. Standardizing Letter Cases: Ensuring uniform text format for seamless data handling.
+3. Merging and Splitting: Using functions like Concatenate to combine columns and Text to Columns to split data, making it cleaner and more structured.
+4. Trimming improved data quality, making it ready for visualization and transformation.
+
+
+
+### Data Transformation
+---
+The transformation stage involved restructuring data to suit analysis needs. Key steps included:
+1. Data Structuring: Organizing data into relevant columns for streamlined analysis.
+2. Formatting and Calculations: Applying functions to create calculated fields and standardized formats.
+3. Filtering and Categorizing: Sorting and grouping data for specific insights, making it easier to visualize trends and patterns.
+
 
 
 ### Data Visualization
 ---
 
-![Data transforming](https://github.com/user-attachments/assets/c121fc92-fef4-40f1-be78-00442fb74762)
+![Clean 1](https://github.com/user-attachments/assets/42d278b4-b506-46c6-90e7-3bb49ae91b62)
 
 
+![Clean 2](https://github.com/user-attachments/assets/6c79c948-e9a5-4e7f-b4bd-63d4418fabd0)
 
-### Data Source
----
-The data used in this transformation project was sourced from the LITA program, providing real-world scenarios and a variety of fields for hands-on practice.
+
+![Clean 3](https://github.com/user-attachments/assets/6d8efb18-dadd-4896-a5fd-0a61b762e7f3)
+
+
+![Data transforming](https://github.com/user-attachments/assets/87e6ea4e-d00a-4b75-b95a-96e9c1edae7f)
+
 
 ### Feedback
 ---
-My Instructor provided clear guidance on transformation techniques, while the learning community offered support and shared insights, enhancing the overall experience.
+The course on data trimming and transformation was incredibly insightful. 
 
-This report showcases my ability to prepare, structure, and visualize data effectively for meaningful analysis.
-
+This report reflects my progress in building clean, structured datasets ready for insightful analysis and visualization. 🙂
