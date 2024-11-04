@@ -70,4 +70,4 @@ The HR dataset was sourced from the LITA program, representing a hypothetical HR
 This module was exceptionally engaging and insightful. The instructor provided clear, hands-on guidance, and the interactive learning environment allowed me to deepen my skills in HR analytics. 
 The class experience was further enriched by collaborative feedback and support from fellow learners, making the process both educational and enjoyable.
 
-This report highlights the work and insights derived from the HR dataset, illustrating how data can inform HR strategies and decisions.
+This report highlights the work and insights derived from the HR dataset, illustrating how data can inform HR strategies and decisions.💃
