@@ -49,6 +49,15 @@ Employing best practices in design for clarity and impact, ensuring data insight
 
 
 
+![working 1](https://github.com/user-attachments/assets/eb5078c6-a9ce-4b6c-a1df-8a113a9313da)
+
+
+
+![Working 2](https://github.com/user-attachments/assets/dab7340d-b9c3-44a0-94fa-be0f58c1571e)
+
+
+
+
 ### Data Sources
 ---
 
@@ -61,3 +70,6 @@ The datasets used in my projects were sourced from a wide range of industries, p
 The learning experience was greatly enhanced by the outstanding instructors, who brought passion, clarity, and a wealth of knowledge to each session. They offered guidance and support, creating an environment where complex topics became manageable. Additionally, the community of learners on the Telegram space provided invaluable peer support, encouragement, and shared insights, making it a collaborative and inspiring journey.
 
 This 9-week journey has given me a robust foundation in data analysis, and I’m excited to apply these skills to real-world data projects and continue growing as a data analyst.
+
+
+Feeling thankful 🥰
