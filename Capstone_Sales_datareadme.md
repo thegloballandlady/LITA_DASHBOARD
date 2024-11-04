@@ -1,4 +1,4 @@
-# CAPSTONE SALES PROJECT REPORT - LITA PROGRAM 
+# CAPSTONE SALES DATA PROJECT REPORT - LITA PROGRAM 
 ---
 
 
@@ -50,72 +50,83 @@ Using SQL, I conducted several key analyses, including:
 ##### 0n SQL 
 ---
 ```SQL 
- SELECT * FROM capstone_project.customers_data;
+ ALTER table s1 RENAME TO Sales_data
+  ;
+  
+  
+  -- ALTER TABLE Sales_data change  `Customer Id`  customerid text;  
 
--- Q1: Total number of customers from each region
-SELECT region, 
-COUNT(customerid) AS total_customers
-FROM customers_data
-GROUP BY region
-;
+  /* Q1:Total numbers of sales for each region 
+  We would select product for each region and group the data by product*/
+  
+  SELECT product, 
+  sum(revenue) total_sales
+  FROM Sales_data 
+  group by product;
+  
+  
+  /* Q2:number of sales in each region 
+  we count by order id and group by the region*/
+  
+  SELECT region, 
+  count(orderid) sales_transaction
+  From sales_data
+  group by region;
+  
+  
+  
+  -- Q3: highest selling product : select product and group by product and order by total sales value)
+  SELECT product,
+  sum(revenue) total_sales 
+  From sales_data
+  group by product
+  order by total_sales desc
+  ;
+  
+  
+  -- Q4:Total revenue by product, group answer by product
+  SELECT product,
+  sum(revenue) total_revenue
+  from sales_data
+  group by product;
+  
+  
+  -- Q5:monthly sales total for the current year: group the order date by month
+  SELECT month(orderdate) as month,
+  sum(quantity * UnitPrice) as monthly_sale
+  from sales_data
+  where year(OrderDate)=year(curdate())
+  group by month(orderdate)
+  order by month;
+  
+  
+  -- Q6: top 5 customers by total purchase: group by customerid with limit of 5 
+  SELECT customerid,
+  sum( quantity * unitprice) total_purchase
+  from sales_data
+  group  by customerid
+  order by total_purchase desc
+  limit 5;
+  
+
+-- Q7: 
+
+SELECT region,
+sum(quantity * unitprice) region_sales,
+ROUND((sum(quantity* unitprice) / (select sum(quantity * unitprice)
+from sales_data) * 100 ) ) as percentage_sales
+from sales_data
+group by region;
 
 
--- Q2: Most popular subscription type by number of customer: we return 1 row using limit=1
-SELECT subscriptiontype, 
-COUNT(customerid) AS customer_count
-FROM customers_data
-GROUP BY subscriptiontype
-ORDER BY customer_count DESC
-LIMIT 1
-;
-
-
--- Q3: Customers who cancelled their subscription within 6 months
-SELECT customerid, 
-customername, 
-subscriptionstart, 
-subscriptionend, 
-canceled
-FROM customers_data
-WHERE canceled = 'True'  AND duration <= 6
-;
-
-
--- Q4: Calculate the average subscription for all customers
-SELECT AVG(duration) AS average_subscription_duration
-FROM customers_data
-;
-
-
--- Q5: Customers with subscription longer than 12 months
-SELECT customerid, 
-customername, 
-duration
-FROM customers_data
-WHERE duration > 12
-;
-
--- Q6: Total revenue by subscription type
-SELECT subscriptiontype,
-SUM(revenue) AS total_revenue
-FROM customers_data
-GROUP BY subscriptiontype
-;
-
-
--- Q7: Top 3 regions by subscription cancellations.
-SELECT region, 
-COUNT(customerid) AS cancelations
-FROM customers_data
-WHERE canceled = 'True'
-GROUP BY region
-ORDER BY cancelations DESC
-LIMIT 3;
-
--- Q8: Total number of active and canceled subscriptions
-SELECT canceled, COUNT(customerid) AS subscription_count
-FROM customers_data
-GROUP BY canceled;
+-- Q8: Product with no sale 
+SELECT distinct product
+from sales_data
+where Product not in (
+	select product
+    from sales_data
+    where orderdate >= TIMESTAMPDIFF(quarter, -1, current_date()))
+    ;
 ```
 
 ###### On Power BI
