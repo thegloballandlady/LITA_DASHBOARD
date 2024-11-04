@@ -1,24 +1,45 @@
 # CAPSTONE CUSTOMER DATA REPORT - LITA PROGRAM
 ---
 
+### PROJECT TITLE
+
+[OVERVIEW](#overview)
+
+[DATA CLEANING AND PREPARATION](#data-cleaning-and-preparation) 
+
+[SQL ANALYSIS](#sql-analysis)
+
+[POWER BI VISUALIZATION](#power-bi-visualization)
+
+[DATA VISUALIZATION](#data-visualization)
+
+[FEEDBACK](#feedback)
 
 
-### Overview
+
+
+### OVERVIEW
 ---
 In this capstone project, I analyzed a customer dataset provided in Excel, with a focus on cleaning, calculating key metrics, and visualizing customer insights. 
 The dataset included columns such as Customer ID, Customer Name, Region, Subscription Type, Subscription Start, Subscription End, Cancelled, and Revenue.
 
-### Data Cleaning and Preparation
+
+
+
+### DATA CLEANING AND PREPARATION
 ---
 
 To prepare the dataset for analysis, I:
 1. Removed Duplicates: Ensured data integrity by eliminating repeated entries.
 2. Created New Columns:
-- Duration: Calculated for each customer based on subscription start and end dates.
-- Average Duration: Derived for all customers to understand typical subscription lengths.
+* Duration: Calculated for each customer based on subscription start and end dates.
+* Average Duration: Derived for all customers to understand typical subscription lengths.
 3. Pivot tables were also created to summarize key metrics by customer segments and regions.
 
-### SQL Analysis
+
+
+
+### SQL ANALYSIS
 ---
 I performed various analyses using SQL to derive insights from the data, including:
 1. Total Number of Customers by Region: Counted customers to analyze regional distribution.
@@ -30,7 +51,7 @@ I performed various analyses using SQL to derive insights from the data, includi
 7. Top 3 Regions by Cancellations: Ranked regions with the most cancellations.
 8. Total Active and Canceled Subscriptions: Counted for an overview of subscription status.
 
-###  Power BI Visualization
+###  POWER BI VISUALIZATION
 ---
 I created an interactive dashboard to visualize key customer insights, including:
 1. Customer Segments and Trends: Displayed subscription patterns by segment.
@@ -39,7 +60,7 @@ I created an interactive dashboard to visualize key customer insights, including
 4. Interactive slicers were added for filtering by region, subscription type, and status.
 
 
-### Data Visualization
+### DATA VISUALIZATION
 ---
 ##### On Excel 
 ---
@@ -131,6 +152,6 @@ GROUP BY canceled;
 
 
 
-### Feedback
+### FEEDBACK
 ---
 This project highlighted my skills in data cleaning, SQL analysis, and visual storytelling using Power BI.
