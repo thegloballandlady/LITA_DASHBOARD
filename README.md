@@ -1,4 +1,4 @@
-# Data Analyst Progress Report - LITA Program
+# MY DATA ANALYSIS PROGRESS REPORT - LITA PROGRAM
 ---
 
 ### Overview
@@ -68,5 +68,5 @@ The learning experience was greatly enhanced by the outstanding instructors, who
 
 This 9-week journey has given me a robust foundation in data analysis, and I’m excited to apply these skills to real-world data projects and continue growing as a data analyst.
 
-
+---
 Feeling thankful 🥰
