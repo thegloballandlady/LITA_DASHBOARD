@@ -53,9 +53,6 @@ Employing best practices in design for clarity and impact, ensuring data insight
 
 
 
-![Working 2](https://github.com/user-attachments/assets/dab7340d-b9c3-44a0-94fa-be0f58c1571e)
-
-
 
 
 ### Data Sources
