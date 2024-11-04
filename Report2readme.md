@@ -41,11 +41,15 @@ Using Power BI, I developed several visualizations to explore patterns and trend
 4. High-Impact Models: A few models consistently led in revenue generation, suggesting popular product lines.
 
 
-### Power BI Dashboard
+### Data Visualization
 ---
 
 The Power BI dashboard developed for this project enables interactive exploration of the data, with filters for each variable. 
 This allows users to view revenue trends, compare sales categories,and analyze line of business performance in real-time.
+
+
+
+
 
 ### Data Source
 ---
