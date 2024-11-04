@@ -120,9 +120,11 @@ GROUP BY canceled;
 
 ###### On Power BI
 
+![Sales_data analysis 1](https://github.com/user-attachments/assets/4a73d4c2-d473-492c-8ee8-f23d3305c4ee)
 
 
 
+![Sales_data analysis 2](https://github.com/user-attachments/assets/a7f9d0c9-f094-4c8c-8800-f6490214f827)
 
 
 
