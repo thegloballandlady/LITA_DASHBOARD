@@ -48,6 +48,10 @@ The Power BI dashboard developed for this project enables interactive exploratio
 This allows users to view revenue trends, compare sales categories,and analyze line of business performance in real-time.
 
 
+![Class inventory data 1](https://github.com/user-attachments/assets/8c31bf72-ab80-4ffa-a81d-4b5ab978841d)
+
+
+![Working 2](https://github.com/user-attachments/assets/b2656708-201e-4a29-9ee2-532f0c08747c)
 
 
 
