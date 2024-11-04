@@ -2,8 +2,21 @@
 ---
 
 
+### PROJECT TITLE
 
-### Overview
+[OVERVIEW](#overview)
+
+[DATA CLEANING AND PREPARATION](#data-cleaning-and-preparation) 
+
+[SQL ANALYSIS](#sql-analysis)
+
+[DATA VISUALIZATION](#data-visualization)
+
+[FEEDBACK](#feedback)
+
+
+
+### OVERVIEW
 ---
 This capstone project involved analyzing a sales dataset provided in Excel. 
 The primary objectives were to clean the data, calculate key metrics both on Excel and SQL, and visualize insights using Power BI. 
@@ -11,7 +24,7 @@ The dataset included the following columns: CustomerID, Product, Region, OrderDa
 
 
 
-### Data Cleaning and Preparation
+### DATA CLEANING AND PREPARATION
 ---
 The initial step was to clean the sales datasheet by:
 1. Removing Duplicates: Ensured data integrity by eliminating redundant entries.
@@ -22,7 +35,7 @@ The initial step was to clean the sales datasheet by:
 
 
 
-### SQL Analysis
+### SQL ANALYSIS
 ---
 Using SQL, I conducted several key analyses, including:
 1. Total Sales by Product Category: Retrieved sales totals to understand category performance.
@@ -38,7 +51,7 @@ Using SQL, I conducted several key analyses, including:
 
 
 
-### Data Visualization
+### DATA VISUALIZATION
 ---
 ##### On Excel
 ---
@@ -140,7 +153,7 @@ where Product not in (
 
 
 
-### Feedback
+### FEEDBACK
 ---
 This project successfully showcased my ability to clean data, perform in-depth analysis using SQL, and visualize insights effectively in Power BI.
 
