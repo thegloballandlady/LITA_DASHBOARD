@@ -40,12 +40,12 @@ In Power BI, I learned how to transform raw data into meaningful visuals, facili
 
 ### Data Visualization
 ---
-
-Throughout the course, I emphasized creating effective and visually appealing data presentations. Skills in data visualization include:
+Skills in data visualization include:
 Designing interactive dashboards and reports to communicate findings.
 Using diverse visual elements such as line charts, bar charts, and pie charts to highlight trends and support decision-making.
 Employing best practices in design for clarity and impact, ensuring data insights are accessible and easy to understand.
 
+![First power bi dashboard](https://github.com/user-attachments/assets/9211b77e-2662-47d3-9bce-61191af413c7)
 
 
 
